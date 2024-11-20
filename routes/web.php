@@ -222,9 +222,9 @@ Route::get('/search',[SearchController::class,'index'])->name('search');
 Route::get('/mobileSearch',[SearchController::class,'mobileSearch'])->name('mobileSearch');
 
 
-Route::get('/test',function (){
-    return public_path();
-});
+// Route::get('/test',function (){
+//     return public_path();
+// });
 
 
 
